@@ -1,14 +1,93 @@
+body {    
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin: 0;
+    padding: 0;
+    font-family: Roboto mono, sans-serif
+}
+.header, .main, .card-container, .information, .testimonial, .call-to-action {
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+h1 {
+    font-size: 48px;
+    color: inherit;
+    font-weight: 900;
+    color: #f9faf8
+} 
+.header, .main {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer {
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header, .main, .footer{
+    background-color: #1f2937;   
+     
+}
+.main {
+    display: flex;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+#logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
 #camping {
     width: auto;
     height: 400px;
+}
+.information h2 {
+    font-size: 32px;
+    color: #1f2937;
+    font-weight: 900;
 }
 .card-container img{
     width: 200px;
     height: 200px
 }
+.card-container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1
+}
+.testimonial {
+    background-color: #e5e7eb;
+}
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: light italic;
+}
+
 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     gap: 10px;
-    justify-content: space-around;
+    justify-content:end;
+    
     flex: 1
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
