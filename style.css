@@ -52,11 +52,13 @@ h1 {
     font-size: 24px;
 }
 #camping {
-    width: auto;
-    height: 400px;
+    width: 500px;
+    height: auto;
     border-radius: 12px;
     margin-top: 30px;
     margin-bottom: 30px;
+   
+    
 }
 .information h2 {
     font-size: 32px;
@@ -123,7 +125,7 @@ button, .call-to-action {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 200px;
+    margin: 100px;
     padding: 50px;
     border-radius: 25px
 }
